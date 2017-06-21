@@ -1,0 +1,23 @@
+html, body {
+    font-family: GroteMT;
+    /*font-family: MyriadPro;*/
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+header {
+    padding-top: 50px;
+}
+.red {
+    color: red;
+}
+
+.content > img {
+    padding-top: 100px;
+}
+
+.side {
+    color: gray;
+}
