@@ -1,10 +1,16 @@
 html, body {
-    font-family: GroteMT;
+    font-family:  courier new;
+
     /*font-family: MyriadPro;*/
 }
 
 .content {
     margin-bottom: 20px;
+
+}
+
+p {
+	padding-top: 10px;
 }
 
 header {
