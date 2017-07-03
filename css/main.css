@@ -1,6 +1,43 @@
+/* css for andrepeat */
+
+
+/* -- GLOBALS -- */
+
 html,
 body {
-    font-family: courier new;
+    font-family: "Courier New", Courier;
+}
+
+@font-face {
+    font-family: 'bt_mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/bt_webfonts/bt_mono_regular-webfont.eot");
+    src: url("../fonts/bt_webfonts/bt_mono_regular-webfont.woff2") format("woff2"), url("../fonts/bt_webfonts/bt_mono_regular-webfont.woff") format("woff"), url("../fonts/bt_webfonts/bt_mono_regular-webfont.ttf") format("truetype"), url("../fonts/bt_webfonts/bt_mono_regular-webfont.svg#bt_mono_reqular-webfont") format("svg")
+}
+
+@font-face {
+    font-family: 'bt_mono';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/bt_webfonts/bt_mono_medium-webfont.eot");
+    src: url("../fonts/bt_webfonts/bt_mono_medium-webfont.woff2") format("woff2"), url("../fonts/bt_webfonts/bt_mono_medium-webfont.woff") format("woff"), url("../fonts/bt_webfonts/bt_mono_medium-webfont.ttf") format("truetype"), url("../fonts/bt_webfonts/bt_mono_medium-webfont.svg#bt_mono_medium-webfont") format("svg")
+}
+
+@font-face {
+    font-family: 'bt_mono';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/bt_webfonts/bt_mono_bold-webfont.eot");
+    src: url("../fonts/bt_webfonts/bt_mono_bold-webfont.woff2") format("woff2"), url("../fonts/bt_webfonts/bt_mono_bold-webfont.woff") format("woff"), url("../fonts/bt_webfonts/bt_mono_bold-webfont.ttf") format("truetype"), url("../fonts/bt_webfonts/bt_mono_bold-webfont.svg#bt_mono_bold-webfont") format("svg")
+}
+
+@font-face {
+    font-family: 'bt_mono';
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/bt_webfonts/bt_mono_heavy-webfont.eot");
+    src: url("../fonts/bt_webfonts/bt_mono_heavy-webfont.woff2") format("woff2"), url("../fonts/bt_webfonts/bt_mono_heavy-webfont.woff") format("woff"), url("../fonts/bt_webfonts/bt_mono_heavy-webfont.ttf") format("truetype"), url("../fonts/bt_webfonts/bt_mono_heavy-webfont.svg#bt_mono_heavy-webfont") format("svg")
 }
 
 
@@ -22,11 +59,6 @@ header {
     color: red;
 }
 
-.content,
-.bt_content {
-    padding: 50px 0px;
-}
-
 .side {
     color: gray;
 }
@@ -36,9 +68,90 @@ header {
 }
 
 
+/*Common padding for all pages*/
+
+.content,
+.bt_content--main,
+.bt_content {
+    padding: 50px 0px;
+}
+
+
 /*-- BT page --*/
 
-.bt_content > p {
+.bt_content--main > p {
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
+}
+
+.bt_brand_hero {
+    font-size: 20px;
+    padding: 10px 0px;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.bt_brand_text {
+    width: 767px;
+    padding: 30px 30px;
+}
+
+.bt_content > img {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bt_code_sample {
+    width: 938px;
+    height: 169px;
+    background: url(../projects/braintree/img/bt_code_samples.jpg) no-repeat 30px -763px;
+    background-size: 100%;
+}
+
+.bt_font_text {
+    font-size: 96px;
+}
+
+.fonts_display {
+    font-family: "bt_mono";
+    font-size: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.font_box {
+    font-size: 20px;
+    border: 1px solid #707070;
+    width: 190px;
+    padding: 7px;
+}
+
+.weight_regular {
+    font-weight: 400;
+}
+
+.weight_medium {
+    font-weight: 500;
+}
+
+.weight_bold {
+    font-weight: 600;
+}
+
+.weight_heavy {
+    font-weight: 900;
+}
+
+.letter_showcase,
+.image_showcase {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.letter-text {
+    color: #14b7ed;
+}
+
+.image_showcase {
+    padding-top: 50px;
 }
