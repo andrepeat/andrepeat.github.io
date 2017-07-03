@@ -1,29 +1,44 @@
-html, body {
-    font-family:  courier new;
-
-    /*font-family: MyriadPro;*/
+html,
+body {
+    font-family: courier new;
 }
+
+
+/* -- Main Page --*/
 
 .content {
     margin-bottom: 20px;
-
 }
 
-p {
-	padding-top: 10px;
+.content p {
+    padding-top: 10px;
 }
 
 header {
     padding-top: 50px;
 }
+
 .red {
     color: red;
 }
 
-.content > img {
-    padding-top: 100px;
+.content,
+.bt_content {
+    padding: 50px 0px;
 }
 
 .side {
     color: gray;
+}
+
+.underline_text {
+    text-decoration: underline;
+}
+
+
+/*-- BT page --*/
+
+.bt_content > p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
 }
