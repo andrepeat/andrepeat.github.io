@@ -72,14 +72,16 @@ header {
 
 .content,
 .bt_content--main,
-.bt_content {
+.bt_content,
+.il_content--main {
     padding: 50px 0px;
 }
 
 
 /*-- BT page --*/
 
-.bt_content--main > p {
+.bt_content--main > p,
+.il_content--main > p {
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
 }
@@ -154,4 +156,16 @@ header {
 
 .image_showcase {
     padding-top: 50px;
+}
+
+
+/* -- Illustration page -- */
+
+.title_text {
+    padding: 80px 0px 20px 0px;
+}
+
+.img-content {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
