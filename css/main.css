@@ -169,3 +169,18 @@ header {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+
+/* experimental page */
+
+.header_exp {
+    padding-bottom: 100px;
+}
+
+.intro-body_exp {
+    padding: 20px 0px;
+}
+
+.intro-body_exp img {
+    padding: 5px 0px;
+}
