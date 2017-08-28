@@ -43,8 +43,15 @@ body {
 
 /* -- Main Page --*/
 
+
+
 .content {
     margin-bottom: 20px;
+
+}
+
+.content >p {
+    color: black;
 }
 
 .content p {
